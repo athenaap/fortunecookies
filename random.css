@@ -45,7 +45,7 @@ button:hover {
     height: fit-content;
     width: fit-content;
     align-content: center;
-    margin: 2%;
+    margin-top: 2%;
   }
   img{
       height: 40vh;
