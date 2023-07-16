@@ -1,0 +1,56 @@
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1{
+    display: block;
+}
+
+#buttonholder{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10%;
+    align-content: center;
+  
+    text-align: center;
+    background-color: black;
+    padding: 10px 20px;
+} 
+
+button{
+    font-size: large;
+    background-color: black;
+    color: beige;
+    cursor: pointer;
+    transition: 0.1s;
+
+}
+
+button:hover {
+    color:black;
+    /* border-radius: 10%; */
+    /* color: white; */
+    background-color: aquamarine;
+  }
+
+  #picsHolder{
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+    margin: 2%;
+  }
+  img{
+      height: 40vh;
+      width: 30vw;
+  }
+
+
+
